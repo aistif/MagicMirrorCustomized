@@ -1,0 +1,77 @@
+/* Slate styling, meant for mirrorless displays */
+
+.calendar-header-day {
+	color: #fffff;
+	font-weight: bold;
+	background-color: #7f8c8d;
+	border-bottom: 1px solid #A9B9BA;
+}
+
+.weekRow {
+	background-color: #A9B9BA;
+}
+
+#monthName {
+	font-weight: normal;
+	color: #7f8c8d;
+}
+
+#yearDigits {
+	color: #8a99af;
+	font-weight: bold;
+}
+
+#calendar-th {
+	border-bottom: 1px solid #181b21;
+	background-color: #242930;
+	padding-top: 5px;
+	font-weight: bold;
+}
+.calendar-day {
+	color: #5D6768;
+}
+
+.monthPrev {
+	color: #C8CECE;
+}
+
+.monthNext {
+	color: #C8CECE;
+}
+
+.square-box {
+	position: relative;
+	width: 50%;
+	overflow: hidden;
+	margin: 0px auto;
+}	
+
+.square-box:before {
+	content: "";
+	display: block;
+	padding-top: 20%;
+}
+
+.square-content {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.square-content .today {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.square-content div {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.square-content span {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
